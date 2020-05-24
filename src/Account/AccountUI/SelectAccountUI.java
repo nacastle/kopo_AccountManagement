@@ -16,20 +16,25 @@ public class SelectAccountUI {
 
         AccountDAO accountDAO = new AccountDAO();
 
-        System.out.println(">조회할 방법을 선택하세요.");
+        System.out.println("---------------------------------");
+        System.out.println("\t조회 서비스 ");
+        System.out.println("---------------------------------");
         System.out.println("\t1. 별칭으로 조회");
         System.out.println("\t2. 계좌번호로 조회");
+        System.out.println("---------------------------------");
+        System.out.print(">조회할 방법을 선택하세요 : ");
 
         int num = sc.nextInt();
         sc.nextLine();
 
         if (num == 1) {
-
             System.out.print(">조회할 계좌의 별칭을 입력하세요 : ");
             String tempNickname = sc.nextLine();
 
             if (accountDAO.selectAccountDAO(userVO, tempNickname) == null) {
                 System.out.println("조회할 계좌가 없습니다.");
+                new ExitUI().exitUI();
+                System.exit(0);
             } else {
                 AccountUI accountUI = new AccountUI();
                 accountUI.showHead();

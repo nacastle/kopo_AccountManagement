@@ -26,13 +26,12 @@ public class AccountDAO {
 
             // sql문 작성
             StringBuilder sql = new StringBuilder();
-            sql.append("select * ");
+            sql.append("select a.id, a.nickname, a.account_number, a.bank, a.owner, a.balance ");
             sql.append(" from t_account a ");
             sql.append(" join t_user u ");
             sql.append(" on a.id = u.id ");
             sql.append(" where a.id = ? ");
-            sql.append(" order by id ");
-            sql.append("         ,bank ");
+            sql.append(" order by nickname  ");
 
             // sql문 ?에 값넣기
             pstmt = conn.prepareStatement(sql.toString());

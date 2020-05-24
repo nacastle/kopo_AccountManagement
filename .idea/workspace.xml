@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d79ca03-5fe8-437b-9824-88462fdb6796" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cIpO5c8QehMMqX44rSlsTmDUsn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="C:/ojdbc8-full/ojdbc8-full/ojdbc8.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="User" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Na\Documents\AccountManagement\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AccountMain">
+    <configuration name="AccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Account.AccountMain" />
+      <module name="AccountManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.UserPractice.Main" />
+      <module name="AccountManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.UserPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeSQL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.UserPractice.PracticeSQL" />
+      <module name="AccountManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.UserPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="User.UserMain" />
+      <module name="AccountManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="User.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AccountMain" />
+        <item itemvalue="Application.UserMain" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PracticeSQL" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d79ca03-5fe8-437b-9824-88462fdb6796" name="Default Changelist" comment="" />
+      <created>1590225926256</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590225926256</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Project_Structure" timestamp="1590316328948">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1590316328948" />
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1590336323501">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590336323501" />
+    <state x="474" y="248" width="417" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590314506215">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="474" y="248" width="417" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1590314506215" />
+    <state x="121" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590318096975">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="121" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1590318096975" />
+    <state x="71" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590314599346">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="71" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590314599346" />
+    <state x="463" y="70" key="FileChooserDialogImpl" timestamp="1590316323934">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="70" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590316323934" />
+    <state width="1323" height="276" key="GridCell.Tab.0.bottom" timestamp="1590344741186">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="276" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590344741186" />
+    <state width="1323" height="276" key="GridCell.Tab.0.center" timestamp="1590344741186">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="276" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590344741186" />
+    <state width="1323" height="276" key="GridCell.Tab.0.left" timestamp="1590344741186">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="276" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590344741186" />
+    <state width="1323" height="276" key="GridCell.Tab.0.right" timestamp="1590344741186">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="276" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590344741186" />
+    <state width="1323" height="276" key="GridCell.Tab.1.bottom" timestamp="1590344740958">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="276" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590344740958" />
+    <state width="1323" height="276" key="GridCell.Tab.1.center" timestamp="1590344740957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="276" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590344740957" />
+    <state width="1323" height="276" key="GridCell.Tab.1.left" timestamp="1590344740957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="276" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590344740957" />
+    <state width="1323" height="276" key="GridCell.Tab.1.right" timestamp="1590344740958">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="276" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590344740958" />
+    <state x="342" y="61" width="697" height="605" key="NewModule_or_Project.wizard" timestamp="1590226180713">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="342" y="61" width="697" height="605" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1590226180713" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1590311761221">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590311761221" />
+    <state x="258" y="100" width="849" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590323471159">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="258" y="100" width="849" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1590323471159" />
+    <state x="62" y="0" key="new project wizard" timestamp="1590311833501">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="62" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590311833501" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1590240659931">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1590240659931" />
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1590311730953">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590311730953" />
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
+  </component>
+</project>

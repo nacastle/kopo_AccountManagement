@@ -36,7 +36,6 @@ public class WithdrawUI {
                 if (accountDAO.selectAccountDAO(userVO, tempNickname) == null) {
                     System.out.println("조회되는 계좌가 없습니다.");
                     new ExitUI().exitUI();
-                    System.exit(0);
                 } else {
                     System.out.print(">출금할 금액을 입력하세요 : ");
                     withdrawAmount = sc.nextLong();
@@ -51,7 +50,6 @@ public class WithdrawUI {
                 if (accountDAO.selectAccountDAO(userVO, tempAccountNumber) == null) {
                     System.out.println("조회되는 계좌가 없습니다.");
                     new ExitUI().exitUI();
-                    System.exit(0);
                 } else {
                     System.out.print(">출금할 금액을 입력하세요 : ");
                     withdrawAmount = sc.nextLong();
@@ -63,7 +61,6 @@ public class WithdrawUI {
             default:
                 System.out.println("잘못된 입력입니다.");
                 new ExitUI().exitUI();
-                System.exit(0);
                 break;
         }
 
@@ -76,12 +73,10 @@ public class WithdrawUI {
         if (originalBalance < withdrawAmount) {
             System.out.println("잔금을 초과합니다.");
             new ExitUI().exitUI();
-            System.exit(0);
         } else {
             accountDAO.withdrawDAO(userVO, originalBalance, withdrawAmount, tempNickname, tempAccountNumber);
             System.out.printf("%d원이 출금되었습니다.\n", withdrawAmount);
         }
-
 
     }
 }

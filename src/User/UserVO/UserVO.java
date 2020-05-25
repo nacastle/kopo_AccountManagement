@@ -4,6 +4,9 @@ public class UserVO {
 
     private String id;
     private String pwd;
+    private String name;
+
+
 
     public UserVO() {
     }
@@ -15,6 +18,12 @@ public class UserVO {
     public UserVO(String id, String pwd) {
         this.id = id;
         this.pwd = pwd;
+    }
+
+    public UserVO(String id, String pwd, String name) {
+        this.id = id;
+        this.pwd = pwd;
+        this.name = name;
     }
 
     public String getId() {
@@ -31,5 +40,13 @@ public class UserVO {
 
     public void setPwd(String pwd) {
         this.pwd = pwd;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

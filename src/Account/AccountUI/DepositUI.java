@@ -36,7 +36,6 @@ public class DepositUI {
                 if (accountDAO.selectAccountDAO(userVO, tempNickname) == null) {
                     System.out.println("조회되는 계좌가 없습니다.");
                     new ExitUI().exitUI();
-                    System.exit(0);
                 } else {
                     System.out.print(">입금할 금액을 입력하세요 : ");
                     depositAmount = sc.nextLong();
@@ -51,7 +50,6 @@ public class DepositUI {
                 if (accountDAO.selectAccountDAO(userVO, tempAccountNumber) == null) {
                     System.out.println("조회되는 계좌가 없습니다.");
                     new ExitUI().exitUI();
-                    System.exit(0);
                 } else {
                     System.out.print(">입금할 금액을 입력하세요 : ");
                     depositAmount = sc.nextLong();
@@ -61,9 +59,7 @@ public class DepositUI {
                 break;
 
             default:
-                System.out.println("잘못된 입력입니다.");
-                new ExitUI().exitUI();
-                System.exit(0);
+                new WrongInput().wrongInput();
                 break;
         }
 

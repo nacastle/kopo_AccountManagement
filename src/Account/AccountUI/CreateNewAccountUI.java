@@ -47,7 +47,7 @@ public class CreateNewAccountUI {
         } else {
             System.out.println("계좌 생성을 위한 금액이 모자랍니다.(1000원 미만)");
             new ExitUI().exitUI();
-            System.exit(0);        }
+        }
     }
 
 }

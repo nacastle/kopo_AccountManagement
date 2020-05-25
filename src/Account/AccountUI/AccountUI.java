@@ -46,6 +46,21 @@ public class AccountUI {
         return num;
     }
 
+    public int chooseSubMenu2() {
+        System.out.println("---------------------------------");
+        System.out.println("\t이체 서비스");
+        System.out.println("---------------------------------");
+        System.out.println("\t1. 셀프 이체");
+        System.out.println("\t2. 출금");
+        System.out.println("\t3. 이체");
+        System.out.println("\t0. 종료");
+        System.out.println("---------------------------------");
+        System.out.print(">사용하실 항목 번호를 선택하세요 : ");
+        int num = sc.nextInt();
+
+        return num;
+    }
+
     public void showHead() {
         System.out.println("------------------------------------------------------------------------------------");
         System.out.printf("%-10s %-14s %-13s %-10s %-10s %-20s\n", "ID", "계좌 별칭", "계좌번호", "은행", "계좌주명", "잔금");
@@ -88,7 +103,7 @@ public class AccountUI {
                         TransferUI tu = new TransferUI();
                         tu.transferUI(userVO);
                     } else {
-                        new ExitUI().exitUI();
+                        new WrongInput().wrongInput();
                     }
                     break;
 

@@ -10,9 +10,6 @@ public class AccountMain {
         AccountUI accountUI = new AccountUI();
         accountUI.execute();
 
-//        if (userVO != null) {
-//        }
-
 
     }
 }

@@ -34,7 +34,6 @@ public class SelectAccountUI {
             if (accountDAO.selectAccountDAO(userVO, tempNickname) == null) {
                 System.out.println("조회할 계좌가 없습니다.");
                 new ExitUI().exitUI();
-                System.exit(0);
             } else {
                 AccountUI accountUI = new AccountUI();
                 accountUI.showHead();
@@ -56,7 +55,6 @@ public class SelectAccountUI {
             if (accountDAO.selectAccountDAO(userVO, tempAccountNumber) == null) {
                 System.out.println("조회할 계좌가 없습니다.");
                 new ExitUI().exitUI();
-                System.exit(0);
             } else {
                 AccountUI accountUI = new AccountUI();
                 accountUI.showHead();
@@ -72,7 +70,6 @@ public class SelectAccountUI {
             }
         } else {
             new WrongInput().wrongInput();
-            System.exit(0);
         }
     }
 }

@@ -22,7 +22,6 @@ public class ReviseAccountUI {
         if (accountDAO.selectAccountDAO(userVO, tempNickname) == null) {
             System.out.println("조회되는 계좌가 없습니다.");
             new ExitUI().exitUI();
-            System.exit(0);
         } else {
             accountDAO.reviseAccountDAO(userVO, newNickname, tempNickname);
             System.out.printf("'%s'에서 '%s'(으)로 별칭이 변경되었습니다.\n", tempNickname, newNickname);

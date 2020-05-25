@@ -19,25 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d79ca03-5fe8-437b-9824-88462fdb6796" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountDAO/AccountDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountDAO/AccountDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/AccountUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/AccountUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/CreateNewAccountUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/CreateNewAccountUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/RegisterAccountUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/RegisterAccountUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/SelectAllAccountUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/SelectAllAccountUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/SelfTransferUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/TransferUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/TransferUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/User/UserVO/UserVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/User/UserVO/UserVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/AccountDAO/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/AccountDAO/AccountDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/AccountUI/AccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/AccountUI/AccountUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/AccountUI/CreateNewAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/AccountUI/CreateNewAccountUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/AccountUI/RegisterAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/AccountUI/RegisterAccountUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/AccountUI/SelectAllAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/AccountUI/SelectAllAccountUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/AccountUI/TransferUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/AccountUI/TransferUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Garbage/SelfTransferUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zGarbage/SelfTransferUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User/UserMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zGarbage/UserMain.java" afterDir="false" />
-    </list>
+    <list default="true" id="2d79ca03-5fe8-437b-9824-88462fdb6796" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,7 +144,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

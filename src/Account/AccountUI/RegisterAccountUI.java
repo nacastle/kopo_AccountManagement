@@ -63,7 +63,7 @@ public class RegisterAccountUI {
             System.out.print(">등록할 계좌의 별칭을 입력하세요 : ");
             String nickname = sc.nextLine();
 
-            String accountOwner = accountDAO.selectAccountDAO(userVO.getId()).getAccountOwner(); // 계좌주명 id로 조회해서 나옴
+            String accountOwner = accountDAO.selectAccountDAO(userVO.getId()).getAccountOwner(); // 계좌주명 id로 select해서 가져오기
             Random r = new Random();
             int balance = (r.nextInt(100) + 1) * 1000; // 잔액은 설정해주는 것이 아닌 이미 정해져있는 것이기에 랜덤으로 처리(1000원 이상)
             accountVO = new AccountVO(userVO.getId(), nickname, accountNumber, bank, accountOwner, balance);

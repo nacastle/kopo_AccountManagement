@@ -81,7 +81,7 @@ public class AccountUI {
             switch (chooseMenu()) {
                 case 1:
                     SelectAllAccountUI saau = new SelectAllAccountUI();
-                    saau.selectAllAcountUI(userVO);
+                    saau.selectAllAccountUI(userVO);
                     break;
 
                 case 2:

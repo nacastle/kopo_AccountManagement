@@ -28,6 +28,7 @@ public class TransferUI {
         int sendAccountNumber = 0; // 돈을 보내는 계좌 계좌번호
         int receiveAccountNumber = 0; // 돈을 받는 계좌 계좌번호
         String receiveId = null;
+        String receiveAccountOwner = null;
         long sendBalance = 0; // 보내는 계좌의 기존 잔액 구하기
         long receiveBalance = 0; // 보내는 계좌의 기존 잔액 구하기
         long sendAmount = 0; // 이체할 금액
@@ -47,6 +48,7 @@ public class TransferUI {
                     sc.nextLine();
 
                     receiveId = accountDAO.selectAccountDAO(receiveAccountNumber).getId();
+                    receiveAccountOwner = accountDAO.selectAccountDAO(receiveAccountNumber).getAccountOwner();
                     if (receiveId == null) {
                         System.out.println("조회되는 계좌가 없습니다.");
                         new ExitUI().exitUI();
@@ -67,7 +69,7 @@ public class TransferUI {
                         } else {
                             accountDAO.withdrawDAO(myUserVO, sendBalance, sendAmount, sendNickname, sendAccountNumber);
                             accountDAO.depositDAO(receiveUserVO, receiveBalance, sendAmount, receiveNickname, receiveAccountNumber);
-                            System.out.printf("%d원이 이체되었습니다.\n", sendAmount);
+                            System.out.printf("%s 님에게 %d원을 이체하였습니다.\n",receiveAccountOwner,sendAmount);
                         }
                     }
                 }

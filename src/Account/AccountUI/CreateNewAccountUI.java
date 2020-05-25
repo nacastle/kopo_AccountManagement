@@ -34,8 +34,8 @@ public class CreateNewAccountUI {
         }
         System.out.print(">등록할 계좌의 별칭을 입력하세요 : ");
         String nickname = sc.nextLine();
-        System.out.print(">등록할 계좌의 계좌주명을 입력하세요 : ");
-        String accountOwner = sc.nextLine();
+//        System.out.print(">등록할 계좌의 계좌주명을 입력하세요 : ");
+        String accountOwner = accountDAO.selectAccountDAO(userVO.getId()).getAccountOwner(); // 계좌주명 id로 조회해서 나옴
 
         System.out.println(">입금할 금액을 입력해주세요. 첫 계좌 생성 시, 최소 1000원 이상을 입금해야합니다.");
         tempBalance = sc.nextLong();

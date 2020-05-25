@@ -8,7 +8,7 @@ public class SelectAllAccountUI {
 
 
 
-    public void selectAllAcountUI(UserVO userVO) {
+    public void selectAllAccountUI(UserVO userVO) {
 
         AccountDAO accountDAO = new AccountDAO();
 

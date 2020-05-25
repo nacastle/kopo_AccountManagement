@@ -213,6 +213,52 @@ public class AccountDAO {
             // 접속종료
             JDBCClose.close(conn, pstmt);
         }
+        return accountVO;
+    }
+
+    public AccountVO selectAccountDAO(String tempId) {
+
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+        AccountVO accountVO = null;
+
+        try {
+
+            // 드라이버 받고 connect해서 connection 변수 하나 생성
+            conn = new ConnectionFactory().getConnection();
+
+            // sql문 작성
+            StringBuilder sql = new StringBuilder();
+            sql.append("select * ");
+            sql.append(" from t_account a ");
+            sql.append(" where a.id = ? ");
+
+            // sql문 ?에 값넣기
+            pstmt = conn.prepareStatement(sql.toString());
+
+            pstmt.setString(1, tempId);
+
+
+            // 작성한 sql문 실행하기
+            ResultSet rs = pstmt.executeQuery();
+            while (rs.next()) {
+
+                String id = rs.getString(1);
+                String nickname = rs.getString(2);
+                int accountNumber = rs.getInt(3);
+                String bank = rs.getString(4);
+                String accountUser = rs.getString(5);
+                long balance = rs.getLong(6);
+
+                accountVO = new AccountVO(id, nickname, accountNumber, bank, accountUser, balance);
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            // 접속종료
+            JDBCClose.close(conn, pstmt);
+        }
 
         return accountVO;
     }
@@ -349,7 +395,6 @@ public class AccountDAO {
 
             // sql문 ?에 값넣기
             pstmt = conn.prepareStatement(sql.toString());
-
 
 
             pstmt.setLong(1, originalBalance);

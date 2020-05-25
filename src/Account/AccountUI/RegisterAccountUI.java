@@ -30,7 +30,7 @@ public class RegisterAccountUI {
         bankList.add("수협은행");
         bankList.add("카카오뱅크");
         bankList.add("케이뱅크");
-
+        // {하나은행, 우리은행, 국민은행, 신한은행 ....}
         System.out.println("---------------------------------");
         System.out.println("\t계좌 등록 서비스 ");
         System.out.println("---------------------------------");
@@ -45,7 +45,6 @@ public class RegisterAccountUI {
                 "\t9. 케이뱅크");
         System.out.println("---------------------------------");
         System.out.print(">등록할 계좌번호의 은행을 고르세요 : ");
-
         int num = sc.nextInt();
         sc.nextLine();
         if (num < 1 || num > 9) {
@@ -63,8 +62,8 @@ public class RegisterAccountUI {
         } else {
             System.out.print(">등록할 계좌의 별칭을 입력하세요 : ");
             String nickname = sc.nextLine();
-            System.out.print(">등록할 계좌의 계좌주명을 입력하세요 : ");
-            String accountOwner = sc.nextLine();
+
+            String accountOwner = accountDAO.selectAccountDAO(userVO.getId()).getAccountOwner(); // 계좌주명 id로 조회해서 나옴
             Random r = new Random();
             int balance = (r.nextInt(100) + 1) * 1000; // 잔액은 설정해주는 것이 아닌 이미 정해져있는 것이기에 랜덤으로 처리(1000원 이상)
             accountVO = new AccountVO(userVO.getId(), nickname, accountNumber, bank, accountOwner, balance);

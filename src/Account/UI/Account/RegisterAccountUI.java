@@ -29,11 +29,8 @@ public class RegisterAccountUI extends BaseAccountUI {
                     "\t2. 우리은행\n" +
                     "\t3. 국민은행\n" +
                     "\t4. 신한은행\n" +
-                    "\t5. 기업은행\n" +
-                    "\t6. 농협은행\n" +
-                    "\t7. 수협은행\n" +
-                    "\t8. 카카오뱅크\n" +
-                    "\t9. 케이뱅크");
+                    "\t5. 기업은행"
+                    );
             System.out.println("---------------------------------");
             System.out.print(">등록할 계좌번호의 은행을 고르세요 : ");
             String bankNum = sc.nextLine();

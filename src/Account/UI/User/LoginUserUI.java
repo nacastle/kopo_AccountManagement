@@ -11,29 +11,30 @@ public class LoginUserUI extends BaseUserUI {
 
     public UserVO userExecute() {
 
-        UserVO userId = null;
+        UserVO userVO = null;
         UserService userService = new UserService();
 
         while (true) {
 
             new UserUI().userLoginEnvironment();
-
             System.out.print(">ID를 입력하세요: ");
             String id = sc.nextLine();
             System.out.print(">PASSWORD를 입력하세요: ");
             String pwd = sc.nextLine();
 
 
-            userId = userService.loginSys(id,pwd);
+            userVO = userService.loginSys(id,pwd);
 
-            if (userId != null) {
+            if (userVO != null) {
                 System.out.println("로그인에 성공했습니다.");
+                System.out.printf("%s 님 반갑습니다!!!\n",userVO.getName());
+
                 break;
             } else {
                 System.out.println("일치하는 ID, PASSWORD가 없습니다. 다시 입력해주세요.");
             }
         }
-        return userId;
+        return userVO;
     }
 
 

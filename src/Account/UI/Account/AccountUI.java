@@ -74,7 +74,6 @@ public class AccountUI  {
 
         while (true) {
             IAccountUI ui = null;
-
             switch (chooseMenu()) {
                 case "1":
                     ui = new SelectAllAccountUI();

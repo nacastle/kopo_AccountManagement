@@ -1,15 +1,19 @@
 package Account;
 
-import Account.AccountUI.AccountUI;
+import Account.UI.Admin.AdminUI;
 
 public class AccountMain {
 
     public static void main(String[] args) {
 
 
-        AccountUI accountUI = new AccountUI();
-        accountUI.execute();
+        try {
+            new AdminUI().adminExecute();
 
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
     }
 }
+

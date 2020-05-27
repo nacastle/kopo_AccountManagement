@@ -19,7 +19,83 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d79ca03-5fe8-437b-9824-88462fdb6796" name="Default Changelist" comment="" />
+    <list default="true" id="2d79ca03-5fe8-437b-9824-88462fdb6796" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Account/DAO/AdminDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/Service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/Service/AccountServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/Service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/Service/AdminServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/Service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/Service/UserServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Account/BaseAccountUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Account/DeleteAccountUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Account/DepositUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Account/GeneralBankingUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Account/IAccountUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Account/RegisterAccountUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Account/SelectAccountUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Account/SelectAllAccountUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Account/TransferUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Account/WithdrawUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Admin/AdminUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Admin/BaseAdminUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Admin/DeleteUserUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Admin/IAdminUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Admin/LoginAdminUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Admin/ReviseUserUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Admin/SelectAllUserUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/Admin/SelectUserUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/User/BaseUserUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/User/IUserUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/User/LoginUserUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/UI/User/UserUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account/VO/AdminVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ojdbc8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountDAO/AccountDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/AccountUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/CreateNewAccountUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/DeleteAccountUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/DepositUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/ExitUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/RegisterAccountUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/ReviseAccountUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/SelectAccountUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/SelectAllAccountUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/TransferUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/WithdrawUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountUI/WrongInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountVO/AccountVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/JDBCUtil/ConnectionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/JDBCUtil/ConnectionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/User/UserDAO/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/User/UserMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/User/UserUI/LoginUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/User/UserUI/UserUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/User/UserVO/UserVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/AccountDAO/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/DAO/AccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/AccountMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/AccountMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/AccountUI/AccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Account/AccountUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/AccountUI/CreateNewAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Account/CreateNewAccountUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/AccountUI/DeleteAccountUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/AccountUI/DepositUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/AccountUI/ExitUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/ExitUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/AccountUI/RegisterAccountUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/AccountUI/ReviseAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Account/ReviseAccountUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/AccountUI/SelectAccountUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/AccountUI/SelectAllAccountUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/AccountUI/TransferUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/AccountUI/WithdrawUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/AccountUI/WrongInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/WrongInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/AccountVO/AccountVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/VO/AccountVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JDBCUtil/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBCUtil/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/UserDAO/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/DAO/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/UserUI/LoginUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/UserUI/UserUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/UserVO/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/VO/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zGarbage/SelfTransferUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zGarbage/UserMain.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +108,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="UML Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,7 +117,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cIpO5c8QehMMqX44rSlsTmDUsn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,10 +129,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/ojdbc8.jar!/" />
+    <property name="last_opened_file_path" value="C:/ojdbc8.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -153,70 +233,78 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="309" y="0" key="#Project_Structure" timestamp="1590368103367">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1590316328948" />
-    <state x="309" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1590368103367" />
-    <state x="549" y="54" key="#com.intellij.ide.util.MemberChooser" timestamp="1590386218779">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590336323501" />
-    <state x="549" y="54" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590386218779" />
-    <state x="533" y="281" width="417" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590394737731">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="474" y="248" width="417" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1590314506215" />
-    <state x="533" y="281" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1590394737731" />
-    <state x="121" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590318096975">
+    <state x="275" y="22" key="#Project_Structure" timestamp="1590473702940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="121" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1590318096975" />
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1590473702940" />
+    <state x="309" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1590368103367" />
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1590586762730">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590586762730" />
+    <state x="549" y="54" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590386218779" />
+    <state x="474" y="248" width="417" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590565620568">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="474" y="248" width="417" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1590565620568" />
+    <state x="533" y="281" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1590394737731" />
+    <state x="399" y="66" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1590553321137">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="399" y="66" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1590553321137" />
+    <state x="121" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590568603312">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="121" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1590568603312" />
     <state x="71" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590314599346">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="71" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590314599346" />
-    <state x="521" y="79" key="FileChooserDialogImpl" timestamp="1590368099732">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="429" y="218" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590480044707">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="70" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590316323934" />
+    <state x="429" y="218" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1590480044707" />
+    <state x="463" y="70" key="FileChooserDialogImpl" timestamp="1590473695187">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="70" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590473695187" />
     <state x="521" y="79" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590368099732" />
-    <state width="1493" height="172" key="GridCell.Tab.0.bottom" timestamp="1590394486349">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1323" height="272" key="GridCell.Tab.0.bottom" timestamp="1590598916673">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="333" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590346559699" />
+    <state width="1323" height="272" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590598916673" />
     <state width="1493" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590394486349" />
-    <state width="1493" height="172" key="GridCell.Tab.0.center" timestamp="1590394486349">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1323" height="272" key="GridCell.Tab.0.center" timestamp="1590598916672">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="333" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590346559699" />
+    <state width="1323" height="272" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590598916672" />
     <state width="1493" height="172" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590394486349" />
-    <state width="1493" height="172" key="GridCell.Tab.0.left" timestamp="1590394486349">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1323" height="272" key="GridCell.Tab.0.left" timestamp="1590598916672">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="333" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590346559699" />
+    <state width="1323" height="272" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590598916672" />
     <state width="1493" height="172" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590394486349" />
-    <state width="1493" height="172" key="GridCell.Tab.0.right" timestamp="1590394486349">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1323" height="272" key="GridCell.Tab.0.right" timestamp="1590598916672">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="333" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590346559699" />
+    <state width="1323" height="272" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590598916672" />
     <state width="1493" height="172" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590394486349" />
-    <state width="1323" height="281" key="GridCell.Tab.1.bottom" timestamp="1590345592521">
+    <state width="1323" height="272" key="GridCell.Tab.1.bottom" timestamp="1590598939351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="281" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590345592521" />
-    <state width="1323" height="281" key="GridCell.Tab.1.center" timestamp="1590345592521">
+    <state width="1323" height="272" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590598939351" />
+    <state width="1323" height="272" key="GridCell.Tab.1.center" timestamp="1590598939351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="281" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590345592520" />
-    <state width="1323" height="281" key="GridCell.Tab.1.left" timestamp="1590345592520">
+    <state width="1323" height="272" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590598939351" />
+    <state width="1323" height="272" key="GridCell.Tab.1.left" timestamp="1590598939350">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="281" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590345592520" />
-    <state width="1323" height="281" key="GridCell.Tab.1.right" timestamp="1590345592521">
+    <state width="1323" height="272" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590598939350" />
+    <state width="1323" height="272" key="GridCell.Tab.1.right" timestamp="1590598939351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="281" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590345592521" />
+    <state width="1323" height="272" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590598939351" />
     <state x="342" y="61" width="697" height="605" key="NewModule_or_Project.wizard" timestamp="1590226180713">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -225,22 +313,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590311761221" />
-    <state x="258" y="100" width="849" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590323471159">
+    <state x="487" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590551696589">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="258" y="100" width="849" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1590323471159" />
+    <state x="487" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1590551696589" />
+    <state x="258" y="100" width="849" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590589467891">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="258" y="100" width="849" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1590589467891" />
     <state x="62" y="0" key="new project wizard" timestamp="1590311833501">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="62" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590311833501" />
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1590480448719">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1590480448719" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1590240659931">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1590240659931" />
-    <state x="346" y="49" key="search.everywhere.popup" timestamp="1590311730953">
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1590553584891">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590311730953" />
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590553584891" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Account/DAO/AccountDAO.java</url>
+          <line>67</line>
+          <properties class="Account.DAO.AccountDAO" method="selectAccountDAO">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Account/UI/Admin/AdminUI.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Account/UI/Account/RegisterAccountUI.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>

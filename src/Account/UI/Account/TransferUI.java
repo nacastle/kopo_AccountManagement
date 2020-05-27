@@ -52,19 +52,24 @@ public class TransferUI extends BaseAccountUI {
                 System.out.print(">이체할 금액을 입력하세요 : ");
                 sendAmount = sc.nextLong();
                 sc.nextLine();
+                if (sendAmount > 0) {
 
-                sendBalance = myAccountVO.getBalance();
-                receiveBalance = accountService.selectAccount(receiveAccountNumber).getBalance();
-                receiveAccountOwner = accountService.selectAccount(receiveAccountNumber).getAccountOwner();
+                    sendBalance = myAccountVO.getBalance();
+                    receiveBalance = accountService.selectAccount(receiveAccountNumber).getBalance();
+                    receiveAccountOwner = accountService.selectAccount(receiveAccountNumber).getAccountOwner();
 
-                if (sendBalance < sendAmount) {
-                    System.out.println("잔액을 초과하는 금액을 입력했습니다.");
-                    new ExitUI().exitUI();
+                    if (sendBalance < sendAmount) {
+                        System.out.println("잔액을 초과하는 금액을 입력했습니다.");
+                        new ExitUI().exitUI();
+                    } else {
+                        accountService.withdraw(myUserVO, sendBalance, sendAmount, sendAccountNumber);
+                        accountService.deposit(receiveUserVO, receiveBalance, sendAmount, receiveAccountNumber);
+
+                        System.out.printf("%s 님에게 %d원을 이체했습니다.\n", receiveAccountOwner, sendAmount);
+                    }
                 } else {
-                    accountService.withdraw(myUserVO, sendBalance, sendAmount, sendAccountNumber);
-                    accountService.deposit(receiveUserVO, receiveBalance, sendAmount, receiveAccountNumber);
+                    System.out.println("0원을 초과하는 금액을 이체해야합니다.");
 
-                    System.out.printf("%s 님에게 %d원을 이체했습니다.\n", receiveAccountOwner,sendAmount);
                 }
             }
         }

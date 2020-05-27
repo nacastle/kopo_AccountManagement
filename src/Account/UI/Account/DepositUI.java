@@ -36,9 +36,13 @@ public class DepositUI extends BaseAccountUI {
             System.out.print(">입금할 금액을 입력하세요 : ");
             depositAmount = sc.nextLong();
             sc.nextLine();
-            originalBalance = accountVO.getBalance();
-            accountService.deposit(userVO, originalBalance, depositAmount, tempAccountNumber);
-            System.out.printf("%d원이 입금되었습니다.\n", depositAmount);
+            if (depositAmount > 0) {
+                originalBalance = accountVO.getBalance();
+                accountService.deposit(userVO, originalBalance, depositAmount, tempAccountNumber);
+                System.out.printf("%d원이 입금되었습니다.\n", depositAmount);
+            } else {
+                System.out.println("0원을 초과하는 금액을 입금해야합니다.");
+            }
         }
 
 

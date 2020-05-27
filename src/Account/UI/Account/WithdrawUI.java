@@ -41,12 +41,18 @@ public class WithdrawUI extends BaseAccountUI {
             originalBalance = accountVO.getBalance();
         }
 
-        if (originalBalance < withdrawAmount) {
-            System.out.println("잔액을 초과합니다.");
-            new ExitUI().exitUI();
+        if (withdrawAmount > 0) {
+
+            if (originalBalance < withdrawAmount) {
+                System.out.println("잔액을 초과합니다.");
+                new ExitUI().exitUI();
+            } else {
+                accountService.withdraw(userVO, originalBalance, withdrawAmount, tempAccountNumber);
+                System.out.printf("%d원이 출금되었습니다.\n", withdrawAmount);
+            }
         } else {
-            accountService.withdraw(userVO, originalBalance, withdrawAmount, tempAccountNumber);
-            System.out.printf("%d원이 출금되었습니다.\n", withdrawAmount);
+            System.out.println("0원을 초과하는 금액을 출금해야합니다.");
+
         }
 
     }

@@ -21,77 +21,47 @@
   <component name="ChangeListManager">
     <list default="true" id="2d79ca03-5fe8-437b-9824-88462fdb6796" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/AccountMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/DAO/AccountDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/DAO/AccountDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/DAO/AdminDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/DAO/AdminDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/DAO/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/DAO/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/Service/AccountService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/Service/AccountServiceFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/Service/AdminService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/Service/AdminServiceFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/Service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/Service/UserServiceFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/AccountUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/AccountUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/BaseAccountUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/BaseAccountUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/CreateNewAccountUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/CreateNewAccountUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/DeleteAccountUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/DeleteAccountUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/DepositUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/DepositUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/GeneralBankingUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/GeneralBankingUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/RegisterAccountUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/RegisterAccountUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/ReviseAccountUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/ReviseAccountUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/SelectAccountUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/SelectAccountUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/SelectAllAccountUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/SelectAllAccountUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/TransferUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/TransferUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/WithdrawUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Account/WithdrawUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Admin/AdminUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Admin/AdminUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Admin/BaseAdminUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Admin/BaseAdminUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Admin/DeleteUserUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Admin/DeleteUserUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Admin/LoginAdminUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Admin/LoginAdminUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Admin/ReviseUserUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Admin/ReviseUserUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Admin/SelectAllUserUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Admin/SelectAllUserUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Admin/SelectUserUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/Admin/SelectUserUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/ExitUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/ExitUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/User/BaseUserUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/User/BaseUserUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/User/LoginUserUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/User/LoginUserUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/User/UserUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/User/UserUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/WrongInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/UI/WrongInput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/VO/AccountVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/VO/AccountVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/VO/AdminVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/VO/AdminVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Account/VO/UserVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/Account/VO/UserVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/AccountManagement.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/Garbage/SelfTransferUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/JDBCUtil/ConnectionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/JDBCUtil/ConnectionFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AccountManagement/JDBCUtil/JDBCClose.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AccountManagement/JDBCUtil/JDBCClose.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/Service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/Service/Account/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/Service/AccountServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/Service/Account/AccountServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/Service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/Service/Admin/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/Service/AdminServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/Service/Admin/AdminServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/Service/User/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/Service/UserServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/Service/User/UserServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/AccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Account/AccountUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/BaseAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Account/BaseAccountUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/CreateNewAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Account/CreateNewAccountUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/DeleteAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Account/DeleteAccountUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/DepositUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Account/DepositUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/RegisterAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Account/RegisterAccountUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/ReviseAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Account/ReviseAccountUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/SelectAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Account/SelectAccountUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/SelectAllAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Account/SelectAllAccountUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/TransferUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Account/TransferUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/WithdrawUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Account/WithdrawUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Admin/AdminUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Admin/AdminUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Admin/BaseAdminUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Admin/BaseAdminUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Admin/DeleteUserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Admin/DeleteUserUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Admin/LoginAdminUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Admin/LoginAdminUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Admin/ReviseUserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Admin/ReviseUserUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Admin/SelectAllUserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Admin/SelectAllUserUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/Admin/SelectUserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Admin/SelectUserUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/ExitUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Extra/ExitUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/User/BaseUserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/User/BaseUserUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/User/LoginUserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/User/LoginUserUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account/UI/WrongInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UI/Extra/WrongInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AccountManagement.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AccountMng.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/AccountMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/AccountMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/DAO/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/DAO/AccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/DAO/AdminDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/DAO/AdminDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/DAO/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/DAO/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/Service/Account/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/Service/Account/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/Service/Account/AccountServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/Service/Account/AccountServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/Service/Admin/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/Service/Admin/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/Service/Admin/AdminServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/Service/Admin/AdminServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/Service/User/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/Service/User/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/Service/User/UserServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/Service/User/UserServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/AccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Account/AccountUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/BaseAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Account/BaseAccountUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/CreateNewAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Account/CreateNewAccountUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/DeleteAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Account/DeleteAccountUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/DepositUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Account/DepositUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/GeneralBankingUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Account/GeneralBankingUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/IAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Account/IAccountUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/RegisterAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Account/RegisterAccountUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/ReviseAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Account/ReviseAccountUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/SelectAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Account/SelectAccountUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/SelectAllAccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Account/SelectAllAccountUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/TransferUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Account/TransferUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Account/WithdrawUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Account/WithdrawUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Admin/AdminUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Admin/AdminUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Admin/BaseAdminUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Admin/BaseAdminUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Admin/DeleteUserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Admin/DeleteUserUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Admin/IAdminUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Admin/IAdminUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Admin/LoginAdminUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Admin/LoginAdminUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Admin/ReviseUserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Admin/ReviseUserUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Admin/SelectAllUserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Admin/SelectAllUserUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Admin/SelectUserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/Admin/SelectUserUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Extra/ExitUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/zExtra/ExitUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/Extra/WrongInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/zExtra/WrongInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/User/BaseUserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/User/BaseUserUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/User/IUserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/User/IUserUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/User/LoginUserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/User/LoginUserUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UI/User/UserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/UI/User/UserUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/VO/AccountVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/VO/AccountVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/VO/AdminVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/VO/AdminVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/VO/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegratedAccount/VO/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AccountMng.cld" beforeDir="false" afterPath="$PROJECT_DIR$/src/AccountMng.cld" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +96,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/ojdbc8.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../ojdbc8.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -143,11 +113,11 @@
   </component>
   <component name="RunManager" selected="Application.AccountMain">
     <configuration name="AccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Account.AccountMain" />
+      <option name="MAIN_CLASS_NAME" value="IntegratedAccount.AccountMain" />
       <module name="AccountManagement" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Account.*" />
+          <option name="PATTERN" value="IntegratedAccount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,13 +191,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Project_Structure" timestamp="1590473702940">
@@ -334,20 +303,6 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590553584891" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Account/DAO/AccountDAO.java</url>
-          <line>67</line>
-          <properties class="Account.DAO.AccountDAO" method="selectAccountDAO">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>

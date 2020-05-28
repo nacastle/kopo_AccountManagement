@@ -634,8 +634,8 @@
                           </org.eclipse.ui.views.properties.PropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Account.IAccountUI</name>
-                        <path>/AccountManagement/src/Account/UI/Account/IAccountUI.java</path>
+                        <name>IntegratedAccount.UI.IntegratedAccount.IAccountUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/IntegratedAccount/IAccountUI.java</path>
                       </target>
                       <bendpoints/>
                     </net.java.amateras.uml.classdiagram.model.RealizationModel>
@@ -1306,8 +1306,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Account.AccountUI</name>
-                        <path>/AccountManagement/src/Account/UI/Account/AccountUI.java</path>
+                        <name>IntegratedAccount.UI.IntegratedAccount.AccountUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/IntegratedAccount/AccountUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -1896,8 +1896,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Account.CreateNewAccountUI</name>
-                        <path>/AccountManagement/src/Account/UI/Account/CreateNewAccountUI.java</path>
+                        <name>IntegratedAccount.UI.IntegratedAccount.CreateNewAccountUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/IntegratedAccount/CreateNewAccountUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -2452,8 +2452,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Account.DeleteAccountUI</name>
-                        <path>/AccountManagement/src/Account/UI/Account/DeleteAccountUI.java</path>
+                        <name>IntegratedAccount.UI.IntegratedAccount.DeleteAccountUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/IntegratedAccount/DeleteAccountUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -3008,8 +3008,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Account.DepositUI</name>
-                        <path>/AccountManagement/src/Account/UI/Account/DepositUI.java</path>
+                        <name>IntegratedAccount.UI.IntegratedAccount.DepositUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/IntegratedAccount/DepositUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -3543,8 +3543,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Account.GeneralBankingUI</name>
-                        <path>/AccountManagement/src/Account/UI/Account/GeneralBankingUI.java</path>
+                        <name>IntegratedAccount.UI.IntegratedAccount.GeneralBankingUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/IntegratedAccount/GeneralBankingUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -4099,8 +4099,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Account.RegisterAccountUI</name>
-                        <path>/AccountManagement/src/Account/UI/Account/RegisterAccountUI.java</path>
+                        <name>IntegratedAccount.UI.IntegratedAccount.RegisterAccountUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/IntegratedAccount/RegisterAccountUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -4655,8 +4655,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Account.ReviseAccountUI</name>
-                        <path>/AccountManagement/src/Account/UI/Account/ReviseAccountUI.java</path>
+                        <name>IntegratedAccount.UI.IntegratedAccount.ReviseAccountUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/IntegratedAccount/ReviseAccountUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -5211,8 +5211,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Account.SelectAccountUI</name>
-                        <path>/AccountManagement/src/Account/UI/Account/SelectAccountUI.java</path>
+                        <name>IntegratedAccount.UI.IntegratedAccount.SelectAccountUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/IntegratedAccount/SelectAccountUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -5746,8 +5746,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Account.SelectAllAccountUI</name>
-                        <path>/AccountManagement/src/Account/UI/Account/SelectAllAccountUI.java</path>
+                        <name>IntegratedAccount.UI.IntegratedAccount.SelectAllAccountUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/IntegratedAccount/SelectAllAccountUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -6302,8 +6302,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Account.TransferUI</name>
-                        <path>/AccountManagement/src/Account/UI/Account/TransferUI.java</path>
+                        <name>IntegratedAccount.UI.IntegratedAccount.TransferUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/IntegratedAccount/TransferUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -6858,8 +6858,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Account.WithdrawUI</name>
-                        <path>/AccountManagement/src/Account/UI/Account/WithdrawUI.java</path>
+                        <name>IntegratedAccount.UI.IntegratedAccount.WithdrawUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/IntegratedAccount/WithdrawUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -7767,8 +7767,8 @@
                     </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                   </propertyDescriptors>
                   <stereoType></stereoType>
-                  <name>Account.UI.Account.BaseAccountUI</name>
-                  <path>/AccountManagement/src/Account/UI/Account/BaseAccountUI.java</path>
+                  <name>IntegratedAccount.UI.IntegratedAccount.BaseAccountUI</name>
+                  <path>/AccountManagement/src/IntegratedAccount/UI/IntegratedAccount/BaseAccountUI.java</path>
                   <isAbstract>true</isAbstract>
                 </target>
                 <bendpoints/>
@@ -9223,8 +9223,8 @@
               </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
             </propertyDescriptors>
             <stereoType></stereoType>
-            <name>Account.Service.Account.AccountService</name>
-            <path>/AccountManagement/src/Account/Service/Account/AccountService.java</path>
+            <name>IntegratedAccount.Service.IntegratedAccount.AccountService</name>
+            <path>/AccountManagement/src/IntegratedAccount/Service/IntegratedAccount/AccountService.java</path>
             <isAbstract>false</isAbstract>
           </target>
           <bendpoints/>
@@ -9685,8 +9685,8 @@
         </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
       </propertyDescriptors>
       <stereoType></stereoType>
-      <name>Account.DAO.AccountDAO</name>
-      <path>/AccountManagement/src/Account/DAO/AccountDAO.java</path>
+      <name>IntegratedAccount.DAO.AccountDAO</name>
+      <path>/AccountManagement/src/IntegratedAccount/DAO/AccountDAO.java</path>
       <isAbstract>false</isAbstract>
     </net.java.amateras.uml.classdiagram.model.ClassModel>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target"/>
@@ -9801,8 +9801,8 @@
         </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
       </propertyDescriptors>
       <stereoType></stereoType>
-      <name>Account.Service.Account.AccountServiceFactory</name>
-      <path>/AccountManagement/src/Account/Service/Account/AccountServiceFactory.java</path>
+      <name>IntegratedAccount.Service.IntegratedAccount.AccountServiceFactory</name>
+      <path>/AccountManagement/src/IntegratedAccount/Service/IntegratedAccount/AccountServiceFactory.java</path>
       <isAbstract>false</isAbstract>
     </net.java.amateras.uml.classdiagram.model.ClassModel>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/source"/>
@@ -10289,8 +10289,8 @@
                           </org.eclipse.ui.views.properties.PropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.User.IUserUI</name>
-                        <path>/AccountManagement/src/Account/UI/User/IUserUI.java</path>
+                        <name>IntegratedAccount.UI.User.IUserUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/User/IUserUI.java</path>
                       </target>
                       <bendpoints/>
                     </net.java.amateras.uml.classdiagram.model.RealizationModel>
@@ -10725,8 +10725,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.User.LoginUserUI</name>
-                        <path>/AccountManagement/src/Account/UI/User/LoginUserUI.java</path>
+                        <name>IntegratedAccount.UI.User.LoginUserUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/User/LoginUserUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -11142,8 +11142,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.User.UserUI</name>
-                        <path>/AccountManagement/src/Account/UI/User/UserUI.java</path>
+                        <name>IntegratedAccount.UI.User.UserUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/User/UserUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -11619,8 +11619,8 @@
                     </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                   </propertyDescriptors>
                   <stereoType></stereoType>
-                  <name>Account.UI.User.BaseUserUI</name>
-                  <path>/AccountManagement/src/Account/UI/User/BaseUserUI.java</path>
+                  <name>IntegratedAccount.UI.User.BaseUserUI</name>
+                  <path>/AccountManagement/src/IntegratedAccount/UI/User/BaseUserUI.java</path>
                   <isAbstract>true</isAbstract>
                 </target>
                 <bendpoints/>
@@ -12185,8 +12185,8 @@
               </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
             </propertyDescriptors>
             <stereoType></stereoType>
-            <name>Account.Service.User.UserService</name>
-            <path>/AccountManagement/src/Account/Service/User/UserService.java</path>
+            <name>IntegratedAccount.Service.User.UserService</name>
+            <path>/AccountManagement/src/IntegratedAccount/Service/User/UserService.java</path>
             <isAbstract>false</isAbstract>
           </target>
           <bendpoints/>
@@ -12317,8 +12317,8 @@
         </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
       </propertyDescriptors>
       <stereoType></stereoType>
-      <name>Account.DAO.UserDAO</name>
-      <path>/AccountManagement/src/Account/DAO/UserDAO.java</path>
+      <name>IntegratedAccount.DAO.UserDAO</name>
+      <path>/AccountManagement/src/IntegratedAccount/DAO/UserDAO.java</path>
       <isAbstract>false</isAbstract>
     </net.java.amateras.uml.classdiagram.model.ClassModel>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel[16]/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target"/>
@@ -12433,8 +12433,8 @@
         </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
       </propertyDescriptors>
       <stereoType></stereoType>
-      <name>Account.Service.User.UserServiceFactory</name>
-      <path>/AccountManagement/src/Account/Service/User/UserServiceFactory.java</path>
+      <name>IntegratedAccount.Service.User.UserServiceFactory</name>
+      <path>/AccountManagement/src/IntegratedAccount/Service/User/UserServiceFactory.java</path>
       <isAbstract>false</isAbstract>
     </net.java.amateras.uml.classdiagram.model.ClassModel>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel[16]/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target"/>
@@ -12747,8 +12747,8 @@
                           </org.eclipse.ui.views.properties.PropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Admin.IAdminUI</name>
-                        <path>/AccountManagement/src/Account/UI/Admin/IAdminUI.java</path>
+                        <name>IntegratedAccount.UI.Admin.IAdminUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/Admin/IAdminUI.java</path>
                       </target>
                       <bendpoints/>
                     </net.java.amateras.uml.classdiagram.model.RealizationModel>
@@ -13094,8 +13094,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Admin.AdminUI</name>
-                        <path>/AccountManagement/src/Account/UI/Admin/AdminUI.java</path>
+                        <name>IntegratedAccount.UI.Admin.AdminUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/Admin/AdminUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -13346,8 +13346,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Admin.DeleteUserUI</name>
-                        <path>/AccountManagement/src/Account/UI/Admin/DeleteUserUI.java</path>
+                        <name>IntegratedAccount.UI.Admin.DeleteUserUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/Admin/DeleteUserUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -13597,8 +13597,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Admin.LoginAdminUI</name>
-                        <path>/AccountManagement/src/Account/UI/Admin/LoginAdminUI.java</path>
+                        <name>IntegratedAccount.UI.Admin.LoginAdminUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/Admin/LoginAdminUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -13848,8 +13848,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Admin.ReviseUserUI</name>
-                        <path>/AccountManagement/src/Account/UI/Admin/ReviseUserUI.java</path>
+                        <name>IntegratedAccount.UI.Admin.ReviseUserUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/Admin/ReviseUserUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -14078,8 +14078,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Admin.SelectAllUserUI</name>
-                        <path>/AccountManagement/src/Account/UI/Admin/SelectAllUserUI.java</path>
+                        <name>IntegratedAccount.UI.Admin.SelectAllUserUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/Admin/SelectAllUserUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -14329,8 +14329,8 @@
                           </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                         </propertyDescriptors>
                         <stereoType></stereoType>
-                        <name>Account.UI.Admin.SelectUserUI</name>
-                        <path>/AccountManagement/src/Account/UI/Admin/SelectUserUI.java</path>
+                        <name>IntegratedAccount.UI.Admin.SelectUserUI</name>
+                        <path>/AccountManagement/src/IntegratedAccount/UI/Admin/SelectUserUI.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -14618,8 +14618,8 @@
                     </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                   </propertyDescriptors>
                   <stereoType></stereoType>
-                  <name>Account.UI.Admin.BaseAdminUI</name>
-                  <path>/AccountManagement/src/Account/UI/Admin/BaseAdminUI.java</path>
+                  <name>IntegratedAccount.UI.Admin.BaseAdminUI</name>
+                  <path>/AccountManagement/src/IntegratedAccount/UI/Admin/BaseAdminUI.java</path>
                   <isAbstract>true</isAbstract>
                 </target>
                 <bendpoints/>
@@ -15154,8 +15154,8 @@
               </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
             </propertyDescriptors>
             <stereoType></stereoType>
-            <name>Account.Service.Admin.AdminService</name>
-            <path>/AccountManagement/src/Account/Service/Admin/AdminService.java</path>
+            <name>IntegratedAccount.Service.Admin.AdminService</name>
+            <path>/AccountManagement/src/IntegratedAccount/Service/Admin/AdminService.java</path>
             <isAbstract>false</isAbstract>
           </target>
           <bendpoints/>
@@ -15386,8 +15386,8 @@
         </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
       </propertyDescriptors>
       <stereoType></stereoType>
-      <name>Account.DAO.AdminDAO</name>
-      <path>/AccountManagement/src/Account/DAO/AdminDAO.java</path>
+      <name>IntegratedAccount.DAO.AdminDAO</name>
+      <path>/AccountManagement/src/IntegratedAccount/DAO/AdminDAO.java</path>
       <isAbstract>false</isAbstract>
     </net.java.amateras.uml.classdiagram.model.ClassModel>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel[22]/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target"/>
@@ -15502,8 +15502,8 @@
         </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
       </propertyDescriptors>
       <stereoType></stereoType>
-      <name>Account.Service.Admin.AdminServiceFactory</name>
-      <path>/AccountManagement/src/Account/Service/Admin/AdminServiceFactory.java</path>
+      <name>IntegratedAccount.Service.Admin.AdminServiceFactory</name>
+      <path>/AccountManagement/src/IntegratedAccount/Service/Admin/AdminServiceFactory.java</path>
       <isAbstract>false</isAbstract>
     </net.java.amateras.uml.classdiagram.model.ClassModel>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel[22]/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/source"/>
@@ -15609,8 +15609,8 @@
         </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
       </propertyDescriptors>
       <stereoType></stereoType>
-      <name>Account.AccountMain</name>
-      <path>/AccountManagement/src/Account/AccountMain.java</path>
+      <name>IntegratedAccount.AccountMain</name>
+      <path>/AccountManagement/src/IntegratedAccount/AccountMain.java</path>
       <isAbstract>false</isAbstract>
     </net.java.amateras.uml.classdiagram.model.ClassModel>
     <net.java.amateras.uml.classdiagram.model.ClassModel>
@@ -15703,8 +15703,8 @@
         </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
       </propertyDescriptors>
       <stereoType></stereoType>
-      <name>Account.UI.Extra.ExitUI</name>
-      <path>/AccountManagement/src/Account/UI/ExitUI.java</path>
+      <name>IntegratedAccount.UI.zExtra.ExitUI</name>
+      <path>/AccountManagement/src/IntegratedAccount/UI/ExitUI.java</path>
       <isAbstract>false</isAbstract>
     </net.java.amateras.uml.classdiagram.model.ClassModel>
     <net.java.amateras.uml.classdiagram.model.ClassModel>
@@ -15797,8 +15797,8 @@
         </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
       </propertyDescriptors>
       <stereoType></stereoType>
-      <name>Account.UI.Extra.WrongInput</name>
-      <path>/AccountManagement/src/Account/UI/WrongInput.java</path>
+      <name>IntegratedAccount.UI.zExtra.WrongInput</name>
+      <path>/AccountManagement/src/IntegratedAccount/UI/WrongInput.java</path>
       <isAbstract>false</isAbstract>
     </net.java.amateras.uml.classdiagram.model.ClassModel>
     <net.java.amateras.uml.classdiagram.model.ClassModel>
@@ -16555,8 +16555,8 @@
         </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
       </propertyDescriptors>
       <stereoType></stereoType>
-      <name>Account.VO.AccountVO</name>
-      <path>/AccountManagement/src/Account/VO/AccountVO.java</path>
+      <name>IntegratedAccount.VO.AccountVO</name>
+      <path>/AccountManagement/src/IntegratedAccount/VO/AccountVO.java</path>
       <isAbstract>false</isAbstract>
     </net.java.amateras.uml.classdiagram.model.ClassModel>
     <net.java.amateras.uml.classdiagram.model.ClassModel>
@@ -16952,8 +16952,8 @@
         </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
       </propertyDescriptors>
       <stereoType></stereoType>
-      <name>Account.VO.AdminVO</name>
-      <path>/AccountManagement/src/Account/VO/AdminVO.java</path>
+      <name>IntegratedAccount.VO.AdminVO</name>
+      <path>/AccountManagement/src/IntegratedAccount/VO/AdminVO.java</path>
       <isAbstract>false</isAbstract>
     </net.java.amateras.uml.classdiagram.model.ClassModel>
     <net.java.amateras.uml.classdiagram.model.ClassModel>
@@ -17349,8 +17349,8 @@
         </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
       </propertyDescriptors>
       <stereoType></stereoType>
-      <name>Account.VO.UserVO</name>
-      <path>/AccountManagement/src/Account/VO/UserVO.java</path>
+      <name>IntegratedAccount.VO.UserVO</name>
+      <path>/AccountManagement/src/IntegratedAccount/VO/UserVO.java</path>
       <isAbstract>false</isAbstract>
     </net.java.amateras.uml.classdiagram.model.ClassModel>
   </children>

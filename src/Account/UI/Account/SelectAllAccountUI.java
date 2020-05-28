@@ -1,6 +1,6 @@
 package Account.UI.Account;
 
-import Account.UI.ExitUI;
+import Account.UI.Extra.ExitUI;
 import Account.VO.AccountVO;
 import Account.VO.UserVO;
 
@@ -32,33 +32,6 @@ public class SelectAllAccountUI extends BaseAccountUI {
 
 
     }
-
-
-
-/*
-    public void selectAllAccountUI(UserVO userVO) {
-
-        DAO accountDAO = new DAO();
-
-        if (accountDAO.selectAllAccountDAO(userVO) == null) {
-            System.out.println("조회할 계좌가 없습니다.");
-            new ExitUI().exitUI();
-        } else {
-            UI accountUI = new UI();
-            accountUI.showHead();
-            for (int i = 0; i < accountDAO.selectAllAccountDAO(userVO).size(); i++) {
-                String id = accountDAO.selectAllAccountDAO(userVO).get(i).getId();
-                String nickname = accountDAO.selectAllAccountDAO(userVO).get(i).getNickname();
-                int accountNumber = accountDAO.selectAllAccountDAO(userVO).get(i).getAccountNumber();
-                String bank = accountDAO.selectAllAccountDAO(userVO).get(i).getBank();
-                String accountOwner = accountDAO.selectAllAccountDAO(userVO).get(i).getAccountOwner();
-                long balance = accountDAO.selectAllAccountDAO(userVO).get(i).getBalance();
-
-                System.out.printf("%-10s %-15s %-15d %-10s %-10s %-20d\n", id, nickname, accountNumber, bank, accountOwner, balance);
-
-            }
-        }
-*/
 
 }
 

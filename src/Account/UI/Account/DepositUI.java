@@ -1,6 +1,6 @@
 package Account.UI.Account;
 
-import Account.Service.AccountService;
+import Account.Service.Account.AccountService;
 import Account.VO.AccountVO;
 import Account.VO.UserVO;
 

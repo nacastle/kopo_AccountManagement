@@ -1,4 +1,4 @@
-package Account.Service;
+package Account.Service.User;
 
 import Account.DAO.UserDAO;
 import Account.VO.UserVO;

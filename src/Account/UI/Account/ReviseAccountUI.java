@@ -1,7 +1,7 @@
 package Account.UI.Account;
 
-import Account.Service.AccountService;
-import Account.UI.ExitUI;
+import Account.Service.Account.AccountService;
+import Account.UI.Extra.ExitUI;
 import Account.VO.AccountVO;
 import Account.VO.UserVO;
 

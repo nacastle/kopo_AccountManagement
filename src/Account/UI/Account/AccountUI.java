@@ -1,11 +1,12 @@
 package Account.UI.Account;
 
-import Account.UI.*;
+import Account.UI.Extra.ExitUI;
+import Account.UI.Extra.WrongInput;
 import Account.VO.UserVO;
 
 import java.util.Scanner;
 
-public class AccountUI  {
+public class AccountUI  extends BaseAccountUI{
 
     Scanner sc = new Scanner(System.in);
 

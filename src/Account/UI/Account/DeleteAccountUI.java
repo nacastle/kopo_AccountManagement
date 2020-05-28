@@ -1,8 +1,8 @@
 package Account.UI.Account;
 
-import Account.UI.ExitUI;
+import Account.UI.Extra.ExitUI;
 import Account.VO.AccountVO;
-import Account.Service.AccountService;
+import Account.Service.Account.AccountService;
 import Account.VO.UserVO;
 
 import java.util.Scanner;

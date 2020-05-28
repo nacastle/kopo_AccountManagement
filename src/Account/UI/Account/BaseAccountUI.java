@@ -1,7 +1,7 @@
 package Account.UI.Account;
 
-import Account.Service.AccountService;
-import Account.Service.AccountServiceFactory;
+import Account.Service.Account.AccountService;
+import Account.Service.Account.AccountServiceFactory;
 
 public abstract class BaseAccountUI implements IAccountUI {
 

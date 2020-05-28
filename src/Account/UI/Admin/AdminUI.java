@@ -1,14 +1,14 @@
 package Account.UI.Admin;
 
 import Account.UI.Account.AccountUI;
-import Account.UI.ExitUI;
+import Account.UI.Extra.ExitUI;
 import Account.UI.User.LoginUserUI;
-import Account.UI.WrongInput;
+import Account.UI.Extra.WrongInput;
 import Account.VO.UserVO;
 
 import java.util.Scanner;
 
-public class AdminUI {
+public class AdminUI extends BaseAdminUI{
 
     Scanner sc = new Scanner(System.in);
 
@@ -66,9 +66,6 @@ public class AdminUI {
 
         while (true) {
             String startNum = startEnvironment();
-//        loop3:
-//        while (true) {
-//            loop2:
             switch (startNum) {
                 case "1":
                     UserVO userVO = new UserVO();
@@ -105,11 +102,6 @@ public class AdminUI {
                         iau.adminExecute();
                     }
 
-
-//                        if (iau != null) {
-//                            iau.adminExecute();
-//                        }
-//                    break;
                 case "0":
                     new ExitUI().exitUI();
                     System.exit(0);

@@ -1,4 +1,4 @@
-package Account.UI;
+package Account.UI.Extra;
 
 public class WrongInput {
     public void wrongInput() {

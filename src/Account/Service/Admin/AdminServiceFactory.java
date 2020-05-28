@@ -1,4 +1,4 @@
-package Account.Service;
+package Account.Service.Admin;
 
 public class AdminServiceFactory {
 

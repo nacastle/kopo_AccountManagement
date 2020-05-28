@@ -1,12 +1,12 @@
 package Account.UI.User;
 
-import Account.Service.UserService;
+import Account.Service.User.UserService;
 import Account.VO.UserVO;
 
 import java.util.Scanner;
 
 public class LoginUserUI extends BaseUserUI {
-    //To do list: 로그인 할 ui 구현
+    //Todo list: 로그인 할 ui 구현
     Scanner sc = new Scanner(System.in);
 
     public UserVO userExecute() {

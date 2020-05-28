@@ -1,6 +1,6 @@
 package Account.UI.Admin;
 
-import Account.Service.AdminService;
+import Account.Service.Admin.AdminService;
 
 import java.util.Scanner;
 

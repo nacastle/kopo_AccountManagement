@@ -1,15 +1,15 @@
 package Account.UI.Account;
 
-import Account.UI.ExitUI;
+import Account.UI.Extra.ExitUI;
 import Account.VO.AccountVO;
-import Account.Service.AccountService;
+import Account.Service.Account.AccountService;
 import Account.VO.UserVO;
 
 import java.util.Random;
 import java.util.Scanner;
 
 public class CreateNewAccountUI extends BaseAccountUI {
-    //To do list: 통합계좌시스템에 새로운 계좌 생성
+    //Todo list: 통합계좌시스템에 새로운 계좌 생성
 
     Scanner sc = new Scanner(System.in);
     Random r = new Random();

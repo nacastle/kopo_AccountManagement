@@ -1,7 +1,7 @@
 package Account.UI.Account;
 
-import Account.Service.AccountService;
-import Account.UI.ExitUI;
+import Account.Service.Account.AccountService;
+import Account.UI.Extra.ExitUI;
 import Account.VO.AccountVO;
 import Account.VO.UserVO;
 
@@ -46,7 +46,7 @@ public class TransferUI extends BaseAccountUI {
                 System.out.println("조회되는 계좌가 없습니다.");
                 new ExitUI().exitUI();
             } else {
-                UserVO receiveUserVO = new UserVO(); // 돈을 받을 유저의 id 정보를 담을 객체
+                UserVO receiveUserVO = new UserVO();
                 receiveUserVO.setId(receiveId);
 
                 System.out.print(">이체할 금액을 입력하세요 : ");
